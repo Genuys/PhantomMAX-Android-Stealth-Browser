@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_bottom_sheet"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_help"
+        app:tint="@color/phantom_warning" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="ВНИМАНИЕ: БЕЗОПАСНОСТЬ"
+        android:textColor="@color/phantom_text"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvDialogMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:lineSpacingExtra="4dp"
+        android:text="Вы собираетесь войти в MAX без активного прокси или VPN. Ваш реальный IP-адрес будет виден серверам."
+        android:textColor="@color/phantom_text_secondary"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginVertical="20dp"
+        android:background="@color/phantom_border" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnDialogConnect"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/phantom_accent"
+            android:fontFamily="sans-serif-medium"
+            android:text="НАСТРОИТЬ ПРОКСИ"
+            android:textColor="@android:color/white"
+            app:cornerRadius="16dp" />
+
+        <Button
+            android:id="@+id/btnDialogContinue"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif"
+            android:text="ПРОДОЛЖИТЬ БЕЗ ЗАЩИТЫ"
+            android:textColor="@color/phantom_text_dim"
+            app:cornerRadius="16dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

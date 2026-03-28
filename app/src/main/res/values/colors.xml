@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="phantom_bg">#0A0A0F</color>
+    <color name="phantom_surface">#12121E</color>
+    <color name="phantom_card">#1A1A2E</color>
+    <color name="phantom_border">#2A2A3E</color>
+    <color name="phantom_accent">#7C4DFF</color>
+    <color name="phantom_accent_dark">#651FFF</color>
+    <color name="phantom_text">#EAEAEA</color>
+    <color name="phantom_text_secondary">#AAAAAA</color>
+    <color name="phantom_text_dim">#777777</color>
+    <color name="phantom_tab_selected">#7C4DFF</color>
+    <color name="phantom_tab_unselected">#777777</color>
+    <color name="phantom_success">#00E676</color>
+    <color name="phantom_error">#FF5252</color>
+    <color name="phantom_warning">#FFD740</color>
+</resources>

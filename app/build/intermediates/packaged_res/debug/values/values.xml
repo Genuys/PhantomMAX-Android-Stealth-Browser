@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="phantom_accent">#7C4DFF</color>
+    <color name="phantom_accent_dark">#651FFF</color>
+    <color name="phantom_bg">#0A0A0F</color>
+    <color name="phantom_border">#2A2A3E</color>
+    <color name="phantom_card">#1A1A2E</color>
+    <color name="phantom_error">#FF5252</color>
+    <color name="phantom_success">#00E676</color>
+    <color name="phantom_surface">#12121E</color>
+    <color name="phantom_tab_selected">#7C4DFF</color>
+    <color name="phantom_tab_unselected">#777777</color>
+    <color name="phantom_text">#EAEAEA</color>
+    <color name="phantom_text_dim">#777777</color>
+    <color name="phantom_text_secondary">#AAAAAA</color>
+    <color name="phantom_warning">#FFD740</color>
+    <string name="app_name">PhantomMAX</string>
+    <style name="PhantomTabText" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="ShapeAppearance.PhantomMAX.BottomSheet" parent="">
+        <item name="cornerSizeTopLeft">24dp</item>
+        <item name="cornerSizeTopRight">24dp</item>
+    </style>
+    <style name="SwitchTheme">
+        <item name="colorControlActivated">@color/phantom_accent</item>
+        <item name="colorSwitchThumbNormal">#555555</item>
+        <item name="android:colorForeground">#333333</item>
+    </style>
+    <style name="Theme.PhantomMAX" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/phantom_accent</item>
+        <item name="colorPrimaryDark">@color/phantom_accent_dark</item>
+        <item name="colorAccent">@color/phantom_accent</item>
+        <item name="android:windowBackground">@color/phantom_bg</item>
+        <item name="android:statusBarColor">@color/phantom_bg</item>
+        <item name="android:navigationBarColor">@color/phantom_bg</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="bottomSheetDialogTheme">@style/Theme.PhantomMAX.BottomSheet</item>
+    </style>
+    <style name="Theme.PhantomMAX.BottomSheet" parent="Theme.MaterialComponents.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Widget.PhantomMAX.BottomSheet</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+    <style name="Widget.PhantomMAX.BottomSheet" parent="Widget.MaterialComponents.BottomSheet">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.PhantomMAX.BottomSheet</item>
+        <item name="backgroundTint">@android:color/transparent</item>
+    </style>
+    <style name="Widget.PhantomMAX.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/bg_button_primary</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+    <style name="Widget.PhantomMAX.ButtonOutlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:background">@drawable/bg_button_outlined</item>
+        <item name="android:textColor">@color/phantom_accent</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+</resources>

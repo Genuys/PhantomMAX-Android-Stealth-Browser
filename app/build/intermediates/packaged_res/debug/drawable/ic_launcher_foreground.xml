@@ -1,0 +1,35 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="0.95"
+        android:scaleY="0.95">
+        
+        <!-- Outer Cyber Ring -->
+        <path
+            android:fillColor="#227C4DFF"
+            android:pathData="M54,54m-48,0a48,48 0,1 1,96 0a48,48 0,1 1,-96 0" />
+            
+        <path
+            android:fillColor="#447C4DFF"
+            android:strokeColor="#7C4DFF"
+            android:strokeWidth="1.5"
+            android:pathData="M54,12 C30.8,12 12,30.8 12,54 C12,77.2 30.8,96 54,96 C77.2,96 96,77.2 96,54 C96,30.8 77.2,12 54,12 Z M54,16 C75,16 92,33 92,54 C92,75 75,92 54,92 C33,92 16,75 16,54 C16,33 33,16 54,16 Z" />
+            
+        <!-- Central Shield with 'P' -->
+        <path
+            android:fillColor="#7C4DFF"
+            android:pathData="M54,24 L32,34 L32,54 C32,68 41,80 54,84 C67,80 76,68 76,54 L76,34 L54,24 Z" />
+            
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M46,40 L46,68 L52,68 L52,56 L58,56 C62,56 64,54 64,48 C64,42 62,40 58,40 L46,40 Z M52,44 L58,44 C59,44 60,45 60,48 C60,51 59,52 58,52 L52,52 L52,44 Z" />
+
+    </group>
+
+</vector>
